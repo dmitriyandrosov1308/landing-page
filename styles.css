@@ -1,0 +1,22 @@
+.header {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px;
+}
+
+.logo {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.links {
+    display: flex;  
+    gap: 18px;
+}
+
+.links a:hover{
+    color: greenyellow;
+}
