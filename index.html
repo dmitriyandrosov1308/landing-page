@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="scroll-behavior: smooth;">
 <head>
     <meta charset="UTF-8">
     <title>My webpage</title>
@@ -12,9 +12,9 @@
                 The Mars Volta fanpage
                 </div>
                 <div class="links">
-                    <a>Albums</a>
-                    <a>Critical reception</a>
-                    <a>Sign-up</a>
+                    <a href="#albums">Albums</a>
+                    <a href="#critics">Critical reception</a>
+                    <a href="#su">Sign-up</a>
                 </div>
             </div>
         
@@ -27,7 +27,7 @@
                         This is the go-to website for each true fan
                         of the greatest progressive rock band of the 21st century.
                     </div>
-                    <button class="lets-go">
+                    <button class="lets-go" onClick="document.getElementById('albums').scrollIntoView();">
                         LET'S GO!
                     </button>
                 </div>
@@ -36,7 +36,7 @@
                 </div>
             </div>
     </div>
-    <div class="second">
+    <div class="second" id="albums">
         <h2>Their best albums.</h2> 
         <div class="images">
             <div class="album">
@@ -57,7 +57,7 @@
             </div>
         </div>
     </div>
-    <div class="third">
+    <div class="third" id="critics">
         <h2>What do critics say?</h2> 
         <div class="quote">
             <div class="quote-text"> 
@@ -82,7 +82,7 @@
             <span>Matt Fink, AllMusic</span>
         </div>
     </div>
-    <div class="fourth">
+    <div class="fourth" id="su">
         <div class="signup-text">
             <div class="su-text-first">
                 Call to action! It's time!
