@@ -67,6 +67,7 @@ body {
     font-size: 15px;
     border-radius: 10px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .second {
