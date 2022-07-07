@@ -1,22 +1,68 @@
-.header {
+.first {
+    
     background-color: #1F2937;
     color: white;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 12px;
+    align-content: center;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+
+.header {      
+                  
+    display: flex;     
+    align-items: center;                       /* logo + links */
+    justify-content: space-between;
+    margin-bottom: 70px;
+    padding: 12px; 
 }
 
 .logo {
-    font-size: larger;
-    font-weight: bolder;
+    font-weight: 900;
+    font-size: 24px;
 }
 
 .links {
-    display: flex;  
-    gap: 18px;
+    display: flex; 
+    font-size: 24px; 
+    gap: 28px;
 }
 
 .links a:hover{
     color: greenyellow;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.welcome-text, .top-image img {
+   width: 450px;
+}
+
+.greeting {
+    color: greenyellow;
+
+    font-weight: 900;
+    font-size: 48px;
+    margin-bottom: 12px;
+}
+.description-text {
+    font-size: 20px; 
+}
+
+.lets-go {
+    margin-top: 40px;
+    padding: 1em 1.8em;
+    border: 1px solid greenyellow;
+    background-color: #1F2937;
+    color: greenyellow;
+    letter-spacing: 2px;
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: bold;
 }
