@@ -129,3 +129,40 @@ h2 {
     font-weight: 700;
     font-size: 18px;
 }
+
+.fourth {
+    background-color: rgb(17, 144, 230);
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    margin: 6em 32em;
+}
+
+.signup-text {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.su-text-first {
+    font-weight: 900;
+    font-size: 26px;
+}
+
+.su-text-second {
+    font-size: 20px;
+}
+
+.sign-up {
+    align-self: center;
+    padding: 1em 1.8em;
+    border: 3px solid white;
+    background-color: rgb(17, 144, 230);
+    color: white;
+    letter-spacing: 2px;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: bold;
+}
